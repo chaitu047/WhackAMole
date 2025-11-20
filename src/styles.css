@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid black;
+  position: relative;
+}
+
+.emoji-span-ghost {
+  height: 100%;
+  width: 100%;
+  font-size: 4rem;
+  z-index: 1;
+  position: absolute;
+}
+
+.emoji-span-hammer {
+  height: 100%;
+  width: 100%;
+  font-size: 4rem;
+  z-index: 2;
+  position: absolute;
+}
